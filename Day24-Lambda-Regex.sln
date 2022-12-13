@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day24_Lambda_Regex", "Day24-Lambda-Regex\Day24_Lambda_Regex.csproj", "{E8439767-1B66-4A74-A3A5-29878C80C7EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{89BF2DFE-8640-44FF-B42E-5493035BA7E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8439767-1B66-4A74-A3A5-29878C80C7EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8439767-1B66-4A74-A3A5-29878C80C7EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8439767-1B66-4A74-A3A5-29878C80C7EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8439767-1B66-4A74-A3A5-29878C80C7EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89BF2DFE-8640-44FF-B42E-5493035BA7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89BF2DFE-8640-44FF-B42E-5493035BA7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89BF2DFE-8640-44FF-B42E-5493035BA7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89BF2DFE-8640-44FF-B42E-5493035BA7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9884CA0-B1B2-4AA9-89B3-0683DE303009}
+	EndGlobalSection
+EndGlobal
