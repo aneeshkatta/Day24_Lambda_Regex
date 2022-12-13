@@ -10,9 +10,9 @@ namespace Day24_Lambda_Regex
     public class LambdaRegex
     {
         //regex pattern for string
-        public static string regex = "^[0-9][0-9][ -][1-9][0-9]{9}";
+        public static string regex = "[A-Za-z0-9]{8,}";
         //comparing both values using regex ismatch
-        public static bool Validate(string ph) => Regex.IsMatch(ph, regex);
+        public static bool Validate(string password) => Regex.IsMatch(password, regex);
     }
 }
 
