@@ -7,8 +7,7 @@ namespace TestProject1
     public class UnitTest1
     {///Arrange           
         [TestMethod]
-        [DataRow("@9703718299")]//test input 01 
-        [DataRow("Ani@9703718299")]//test input 02 
+        [DataRow("Ani@9703718299")]//test input 01 
         public void TestMethod(string input)
         {
             ///Act
