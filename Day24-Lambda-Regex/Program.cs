@@ -10,8 +10,8 @@ namespace Day24_Lambda_Regex
     {
         static void Main(string[] args)
         {
-            string inputFirstName = "Raj";
-            bool result = LambdaRegex.Validate(inputFirstName);
+            string inputLastName = "Raju";
+            bool result = LambdaRegex.Validate(inputLastName);
             if (result)
             {
                 Console.WriteLine("Valid");

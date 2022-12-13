@@ -12,7 +12,7 @@ namespace Day24_Lambda_Regex
         //regex pattern for string
         public static string regex = "^[A-Z][A-za-z]{2,}";
         //comparing both values using regex ismatch
-        public static bool Validate(string firstname) => Regex.IsMatch(firstname, regex);
+        public static bool Validate(string inputLastName) => Regex.IsMatch(inputLastName, regex);
     }
 }
 
