@@ -7,13 +7,11 @@ namespace TestProject1
     public class UnitTest1
     {///Arrange           
         [TestMethod]
-        [DataRow("Ravi@123#%")]//test input 01 will pass test
-        [DataRow("Raju")]//test input 02 will pass test
-        [DataRow("raJu")]//test input 03   will fail test
-        public void TestMethod(string name)
+        [DataRow("abc.xyz@bl.co.in")]//test input 01 
+         public void TestMethod(string input)
         {
             ///Act
-            bool result = LambdaRegex.Validate(name);
+            bool result = LambdaRegex.Validate(input);
             ///Assert
             Assert.AreEqual(true, result);
         }

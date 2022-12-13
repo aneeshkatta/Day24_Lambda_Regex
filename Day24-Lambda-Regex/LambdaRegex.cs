@@ -10,9 +10,9 @@ namespace Day24_Lambda_Regex
     public class LambdaRegex
     {
         //regex pattern for string
-        public static string regex = "^[A-Z][A-za-z]{2,}";
+        public static string regex = "^[0-9a-z]{1,}([.+-_]*)(([0-9a-z]{1,})*)(@)(gmail|bl)(.)(com|co)([.]*)([in]*)$";
         //comparing both values using regex ismatch
-        public static bool Validate(string inputLastName) => Regex.IsMatch(inputLastName, regex);
+        public static bool Validate(string mail) => Regex.IsMatch(mail, regex);
     }
 }
 
