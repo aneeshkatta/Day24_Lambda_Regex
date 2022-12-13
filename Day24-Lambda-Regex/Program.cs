@@ -10,8 +10,8 @@ namespace Day24_Lambda_Regex
     {
         static void Main(string[] args)
         {
-            string mail = "abc.xyz@bl.co.in";
-            bool result = LambdaRegex.Validate(mail);
+            string ph = "91 9703718299";
+            bool result = LambdaRegex.Validate(ph);
             if (result)
             {
                 Console.WriteLine("Valid");
