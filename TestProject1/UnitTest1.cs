@@ -8,7 +8,8 @@ namespace TestProject1
     {///Arrange           
         [TestMethod]
         [DataRow("@9703718299")]//test input 01 
-         public void TestMethod(string input)
+        [DataRow("Ani@9703718299")]//test input 02 
+        public void TestMethod(string input)
         {
             ///Act
             bool result = LambdaRegex.Validate(input);

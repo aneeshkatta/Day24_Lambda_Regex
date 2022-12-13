@@ -10,7 +10,7 @@ namespace Day24_Lambda_Regex
     public class LambdaRegex
     {
         //regex pattern for string
-        public static string regex = "[A-Za-z0-9]{8,}";
+        public static string regex = "(?=.*[A-Z]).{8}";
         //comparing both values using regex ismatch
         public static bool Validate(string password) => Regex.IsMatch(password, regex);
     }
